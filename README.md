@@ -7,5 +7,11 @@ Topics Coverd -
 * sequences
 * vector
 * matrix
+* as. functions
+* which function
+* match, identical
+* rbind, cbind
+* diag, dimnames
+* expression, eval
 
 Look at .RData for previous session
