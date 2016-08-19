@@ -1,0 +1,22 @@
+Paste this in `/etc/apt/sources.list`
+
+    deb http://cran.rstudio.com/bin/linux/ubuntu precise/
+
+Run this command
+
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+    sudo apt-get update
+    sudo apt-get install r-base
+
+Installing llibraries in local(personal) folder
+
+   mkdir /home/niit/DataMining/R_libs
+   export R_LIBS="/home/niit/DataMining/R_libs"
+
+Necessary before you start installing packages
+
+    install.packages('codetools', dep = TRUE, repos="http://cran.r-project.org")
+
+Installing package
+
+    install.packages('ggplot2', dep = TRUE, repos="http://cran.r-project.org")
